@@ -1,0 +1,34 @@
+<!--banner-->
+    <div class="inside_banner" style="background: url('__STYLE__/img/s1.jpg') no-repeat center;height:400px;">
+    </div>
+    <!---->
+    <div class="question">
+      <div class="wrap-1200">
+
+        <div class="price pro-question">
+          <ul>
+          <volist name="list" id="vo" key="k">
+            <a href="javascript:void(0)">
+              <li class="{if $k==1} price_curr {/if}">{$vo.title}</li>
+            </a>
+            <span style="display: block;">{$vo.content}</span>
+          </volist>
+          </ul>
+        </div>
+      </div>
+     
+      <include file="Feedback:index"/>     
+    </div>
+
+
+
+  <script type="text/javascript">
+          $('.pro-question a').click(function(){
+
+        $('.pro-question li').removeClass('price_curr')
+        $('.pro-question span').stop().slideUp()
+        $(this).find('li').addClass('price_curr')
+        $(this).next('span').stop().slideDown()
+      })
+  </script>
+

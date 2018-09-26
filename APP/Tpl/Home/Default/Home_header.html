@@ -1,0 +1,89 @@
+
+<header class="header"  id="headdiv">
+        <div class="header-bg">
+          <div class="header-t">
+            <div class="header_left fl">
+                <p>{$index_left}</p>
+            </div>
+            <div class="fr">
+              <div class="top">
+                <span class="call">
+                </span>
+                <span class="call_tel">
+                  {$site_mphone}
+                </span>
+                <a>
+                  <span class="email">
+                  </span>
+                  {$site_email}
+                </a>
+                <a class="ewm">
+                  <span class="weixin">
+                  </span>
+                  一贯科技公众号
+                  <img src="__STYLE__/img/wei.jpg"
+                  width="258" height="258" alt="一贯科技微信公众号" />
+                </a>
+              </div>
+
+          </div>
+          </div>
+        </div>
+        <div class="wrap">
+          <h1 class="fl">
+            <a href="{:HOMEURL()}" class="fl logo">
+              <img src="{$site_logo}"
+              alt="一贯科技" width="203" height="64" />
+            </a>
+          </h1>
+          <div class="fr">
+            <nav class="nav">
+              <ul class="fix">
+                <li {if $ishome=='home'}id="menu"{/if}>
+                  <a href="{:HOMEURL()}">
+                    官网首页
+                  </a>
+                </li>
+
+            <tp:subcat catid="0" id="cat">
+                <li id="{if is_child($catid,$cat['arrchildid'])}menu{/if}">
+                  <a href="{$cat.url}">
+                    {$cat.catname}
+                  </a>
+                </li>
+            </tp:subcat>
+
+              </ul>
+              <span class="nav_icon">
+              </span>
+            </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <script type="text/javascript">
+          window.onscroll=function(){
+            var top=window.pageYOffset||document.documentElement.scrollTop||document.body.scrollTop;
+            var node=document.getElementById('headdiv');
+            if(top<100){
+                node.style.top='0px';
+            }else{
+                node.style.top='-50px';
+                node.style.transition='0.2s';
+            }
+        }
+
+    </script>
+      <script type="text/javascript">
+
+        document.getElementById('menu').className = "on";
+
+        
+
+      </script>
+
+
+      
+
+

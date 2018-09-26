@@ -1,0 +1,39 @@
+<!--banner-->
+    <div class="inside_banner" style="background: url('__STYLE__/img/c1.png') no-repeat center;height: 400px;">
+    </div>
+    <a name="case">
+    </a>
+
+
+    <div class="wrap alzsbox2">
+       <div class="alzs2_menu">
+       <tp:subcat catid="$catid1" id="r"> 
+        <a  class="{if is_child($catid,$r['arrchildid'])} cur {/if}" href="{$r.url}">{$r.catname}</a>
+       </tp:subcat>
+       </div>
+       <div class="listBox2">
+
+          <ul>
+
+          <volist name="list" id="vo">
+            <li>
+                <a href="{$vo.url}">
+                  <div class="imgBox2">
+                    <img src="{$vo.thumb}" class="img" alt="{$vo.title}">
+                    <div class="bg"></div>
+                    <img src="__STYLE__/img/i05.png" alt="查看网站建设案例一" class="i5">
+                    <img src="__STYLE__/img/i06.png" alt="查看网站建设案例二" class="i6">
+                    </div>
+                    <div class="t">{$vo.title}</div>
+                </a>
+            </li>
+          </volist>
+           
+          </ul>
+
+      </div>
+
+      <div class="c"></div>  
+      <div class="page">{$pages}</div>
+   </div>
+

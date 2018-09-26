@@ -1,0 +1,20 @@
+<div class="ng-end  ng-fault ng-container ng-paddor bg-danger">
+                             <div class="ng-end-copyright">
+
+                                  <tp:block pos="m_copy"/>
+                                  
+                             </div>
+</div>
+
+<footer>
+   			 <ul>
+   			 		<li><a class="service" href="{:HOMEURL()}"><span class="bg4"></span>网站首页</a></li>
+					<li class="calltel"><a href="tel:075782903896"><span class="bg1"></span>拨打电话</a></li>
+					<li><a href="sms:13360295373"><span class="bg3"></span>发送短信</a></li>					
+					
+					<li><a href="{$Categorys[6]['url']}" class="contact"><span class="bg5"></span>联系我们</a></li>
+				</ul>
+    <script>
+        $(".calltel").click(function(j){form.tqCount(this);location.href="tel:"+'075782903896';j.stopPropagation();});
+    </script>
+</footer>

@@ -1,0 +1,60 @@
+<form name="myform" action="{:U('Node/listorder')}" method="post">
+<div class="table-list">
+    <table width="100%" cellspacing="0">
+        <thead>
+            <tr>
+            <th width="40">{:L('listorder')}</th>
+           
+            <th align="left">{:L('node_title')}</th>
+			<th width="80" align="left">{:L('node_name')}</th>	
+			<th width="40">{:L('status')}</th>
+			<th  width="120">{:L('manage')}</th>
+            </tr>
+        </thead>
+	<tbody>
+
+
+	<volist name="nodes" id="r">		
+		<tr><td colspan="7"  bgcolor="F8FAFC">{$r[groupinfo][name]}</td></tr>
+		{$r[data]}
+	</volist>
+	</tbody>
+    </table>
+  
+    <div class="btn"><input type="submit" class="button" name="dosubmit" value="<?php echo L('listorder')?>" /></div>  </div>
+</div>
+</form>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$('td[rel]').is(function(){
+			if($(this).html() == '启用'){
+				$(this).css('color','green');
+			}else{
+				$(this).css('color','red');
+			}
+			$(this).css('cursor','pointer');
+		});
+
+
+		$('td[rel]').click(function(event) {
+			var obj = $(this);
+			var id = parseInt(obj.attr('rel'));
+			var data = obj.html();
+			var status = ($.trim(data) == '启用'?0:1);
+				data = (status == 1?'启用':'禁用');
+			var color = (status == 1?'green':'red');
+			if(id){
+				$.get('{:U("status")}',{ id:id,status:status },function(rs){
+					if(rs == 1){
+						obj.html(data);
+						obj.css('color',color);
+					}
+				},'json');
+			}else{
+				alert('缺少必要参数');
+			}
+			
+		});;
+	});
+</script>

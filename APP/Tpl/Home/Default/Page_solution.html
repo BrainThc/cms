@@ -1,0 +1,51 @@
+<!--banner-->
+    <div class="inside_banner" style="background: url('__STYLE__/img/s1.jpg') no-repeat center;height:400px;">
+    </div>
+    <!---->
+    <div class="question">
+      <div class="wrap-1200">
+
+        <div class="price pro-question">
+          <ul>
+          <tp:list name="Question" id="r">
+            <a href="javascript:void(0)">
+              <li class="price_curr">{$r.title}</li>
+            </a>
+            <span>{$r.content}</span>
+          </tp:list>
+          </ul>
+        </div>
+      </div>
+      <div class="opinion" id="question">
+        <div class="wrap-1200">
+        <form id="form1" action="http://www.simmons.cn/index.php?m=item&amp;ac=message&amp;method=add_save" method="post">
+          <input type="hidden" name="module_id" value="5">
+          <div class="opinion_title">顾客意见 <span>Customer opinion</span> </div>
+          <p>
+            <input type="text" name="addnew[subject]" class=" opinion_text {required:true}" placeholder="姓名/ 昵称（ Name / Nickname ）">
+          </p>
+          <p>
+            <input type="text" name="addnew[email]" class=" opinion_text {required:true}" placeholder="邮箱地址（ Email ）">
+          </p>
+          <p>
+            <textarea cols="" name="addnew[remark]" class=" opinion_text2 {required:true}" rows="" placeholder="问题或意见（ Questions or Comments ）："></textarea>
+          </p>
+          <input type="submit" name="sub" class="opinion_btn" value="提 交">
+        </form>
+        </div>
+      </div>
+    </div>
+
+
+
+  <script type="text/javascript">
+          $('.pro-question a').click(function(){
+
+        $('.pro-question li').removeClass('price_curr')
+        $('.pro-question span').stop().slideUp()
+        $(this).find('li').addClass('price_curr')
+        $(this).next('span').stop().slideDown()
+      })
+  </script>
+
+  <script type="text/javascript" src="__STYLE__/js/jquery-1.12.0.min.js"></script>

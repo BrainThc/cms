@@ -1,0 +1,102 @@
+<div class="nymain">
+	<include file="Home:banner" />
+	<include file="Home:left" />
+	<div class="vipright fr">
+	<div class="vipr">
+		<p class="preson">收藏信息</p>
+            <div class="gouche" style="width:800px;margin:10px auto;">
+                <form id="myshoucang" action="{:U('deleteall')}" method="post">
+                    <table width="100%">
+                        <thead>
+                            <tr class="th1" height="30">
+                            <td width="80">
+                                <input type="checkbox" name="ids[]" class="checkbox" value="0" >
+                                <span style="padding-left: 5px;">全选</span>
+                            </td>
+                            <td  style="padding-left: 41px;">商品信息</td>
+
+                            <td align="left" width="40">操作</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="list" id="r" key="k">
+                        <tr height="60" >
+                            <td>
+
+                                <input type="checkbox" class="checkbox" name="ids[]" value="{$r.id}" >
+
+                            </td>
+                            <td>
+                                <a href="{$r.url}" target="_blank">
+                                <img src="{$r.thumb}" alt="{$r.title}" class="fl" width="40" height="40">
+                                <span clss="fl" style="line-height: 40px;">&nbsp;&nbsp;{$r.title} </span>
+                                <div class="clear"></div>
+                                </a>
+                            </td>
+                            <td >
+                                <a href="{:U('del?id='.$r[id])}" class="del" >删除</a>
+                            </td>
+                        </tr>
+                        </volist>
+                    </tbody>
+                    <tfoot>
+                        <tr class="th1" height="30" >
+                        <td width="80" >
+                            <input type="submit" class="button" value="删除选中">
+                        </td>
+                        <td align="right"  colspan="2" class="pg " >{$page}</td>
+                    </tr>
+                    </tfoot>
+
+                </table>
+                </form>
+                
+            </div>
+    </div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<style>
+    input.checkbox{ margin-left: 20px; }
+    .button{ margin-left: 10px; }
+    .pg a{ padding:0 5px; margin:0 2px; }
+</style>
+<script>
+    $(function(){
+
+        //全选
+        var box = $('#myshoucang .checkbox');
+        box.eq(0).click(function(){ 
+            if($(this).attr('checked')){ 
+                box.attr('checked',true);
+            }else{
+                box.attr('checked',false);
+            }
+
+        });
+
+        
+        $('a.del').click(function(){ 
+            if(!confirm('您确定要删除此信息？')){ 
+                return false;
+            }
+        });
+        $('input.button').click(function(){
+            var rs = 0;
+            box.each(function(i,v){ 
+                if(i){
+                    if($(v).attr('checked')) rs = 1;
+                }
+            });
+            if(rs == 0){ 
+                alert('请选择要删除的信息！');
+                return false;
+            }
+
+            if(!confirm('您确定要删除选中的信息？')){ 
+                return false;
+            }
+        });
+    });
+</script>

@@ -1,0 +1,42 @@
+
+<div class="inside_banner" style="background: url('__STYLE__/img/c1.png') no-repeat center;height: 400px;"></div>
+
+
+<div class="case_detail">
+			<div class="local">您的位置：<span><a href="{:URL()}">{:L(home_font)}</a> &gt <tp:catpos  catid="catid" space=" &gt; " /></span>
+			</div>
+		
+			<div class="case_detail_color">	
+				<div class="case_top">
+					<div class="case_detail_le z">
+						<h3>{$title}</h3>		
+							
+						<p class="mtm date">日期：{$createtime|toDate=###,'Y-m-d H:i:s'} &nbsp;&nbsp;&nbsp; 文章来源：<a href="http://www.ieconn.com">佛山网站建设</a> </p>
+					</div>
+					<div class="case_detail_ri y">							
+						<div class="case_detail_link">
+							<a href="{$caseurl}" rel="noFollow" target="_blank">
+								<i><img src="__STYLE__/img/case_08.png" alt="访问网站" width="24" height="15"></i>访问网站
+							</a>
+						</div>
+					</div>
+				</div>	
+				<div class="clear"></div> 
+						
+				<div class="case_detail_conten">
+					
+					<div class="page-cont ng-fault">
+
+						{if $content}
+			 						{$content}
+			 					{else}
+			 						<p>暂无数据...</p>
+			 			{/if}
+
+					</div>
+
+				</div>				
+			</div>		 	
+			
+			<div class="case_detail_info"><div class="clear"></div></div>  
+		</div>

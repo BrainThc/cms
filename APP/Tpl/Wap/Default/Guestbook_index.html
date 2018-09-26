@@ -1,0 +1,150 @@
+		<div class="contactcont">
+			<div class="ng-insidswiper ng-fault">
+                  <img src="__STYLE__/wap/img/p1.jpg" alt="">
+            </div>
+			<!-- <div class="contactcont_t">深圳市易百讯科技有限公司</div> -->
+			<ul class="clearfix">
+				<li>
+					<div><img src="__STYLE__/wap/img/contact_pic1.png">电话 Tel</div>
+					<p><a href="tel:0757-82903896">0757-82903896</a></p>
+				</li>
+				<li>
+					<div><img src="__STYLE__/wap/img/contact_pic2.png"> 邮箱 Email</div>
+					<p><a href="mailto:1010426086@qq.com">1010426086@qq.com</a><br>&nbsp;</p>
+				</li>
+				<li>
+					<div><img src="__STYLE__/wap/img/contact_pic3.png">企业QQ</div>
+					<p>1010426086</p>
+				</li>
+				<li>
+					<div><img src="__STYLE__/wap/img/contact_pic4.png">地址 Address</div>
+					<p>佛山市禅城区季华六路九鼎国际金融中心二座1513</p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="contactform">
+            <h4>提交您的留言，我们将尽快联系您</h4>
+			<form action="{:U('Home/Index/insert')}" method="post" name="myform" id="myform" onsubmit="return checkform3(this);">
+            <ul>
+                <li class="clearfix">
+                    <span>*姓 名</span>
+                    <div>
+                        <input class="textinput" type="text" id="username" name="username"></div>
+                </li>
+                <li class="clearfix">
+                    <span>*联系电话</span>
+                    <div>
+                        <input class="textinput" type="text" id="Tel" name="Tel"></div>
+                </li>
+                <li class="clearfix">
+                    <span>&nbsp;电子邮箱</span>
+                    <div>
+                        <input class="textinput" type="text" id="email" name="email"></div>
+                </li>
+                <li class="clearfix">
+                    <span>*公司名称</span>
+                    <div>
+                        <input class="textinput" type="text" id="company" name="company"></div>
+                </li>
+                <li class="clearfix">
+                    <span>*合作需求</span>
+                    <div>
+                        <textarea cols="" id="content" name="content"></textarea></div>
+                </li>
+                <!--<li class="clearfix">
+                    <span>*验证码</span>
+                    <div class="clearfix">
+                        <input class="Codeinput" type="text" id="code">
+                        <span class="Codeimg">
+                            <img src="images/code.jpg"></span>
+                        <span class="Codechange">
+                            <img src="images/codechange.jpg"></span>
+                    </div>
+                </li>-->
+            </ul>
+			<input type="submit" value="立即提交" class="contactbtn">
+				</form>
+        </div>
+
+
+        <script language="javascript">
+			function chkemail(a)
+			{
+				var i=a.length;
+			    var temp = a.indexOf('@');
+			    var tempd = a.indexOf('.');
+			    if (temp >= 1) {
+			      if ((i-temp) > 3){
+			          
+			              if ((i-tempd)>0){
+			                  return 1;
+			              }
+			          
+			      }
+			    }
+			  return 0;
+			}
+			function IsDigit(cCheck)  
+			{  
+			    return (('0'<=cCheck) && (cCheck<='9'));  
+			} 
+			function checkform3(nForm)  
+			{
+				if(nForm.username.value==""||nForm.username.value=="姓名")
+				{
+					alert("请留下您的姓名!");
+					nForm.username.focus();
+					return false;
+				}
+
+
+			   
+
+			// if (nForm.email.value ==""||chkemail(nForm.email.value)==0||nForm.email.value =="邮箱")
+			//      {
+			//      alert("请输入正确的，可以联络到您的E-mail");
+			//      nForm.email.focus();
+			//      return false;
+			//      }
+				  
+			if(nForm.Tel.value==""||nForm.Tel.value=="电话"){
+			alert(" 请留下您的电话,以便我们与您联系!") ;
+			nForm.Tel.focus();
+			return false;
+			}  
+
+			if( IsDigit(nForm.Tel.value)==0)
+			{
+			alert("电话必须为数字!");
+			nForm.Tel.focus();
+			return false;
+			}
+			if(nForm.company.value==""||nForm.company.value=="公司名称")
+				{
+					alert("请留下您的公司名称!");
+					nForm.company.focus();
+					return false;
+				}
+
+			if(nForm.content.value==""){
+				alert("请写下您的合作需求!");
+				nForm.content.focus();
+				return false;
+			}
+			//if(nForm.captchacode.value==""){
+			//	alert("请输入验证码!");
+			//	nForm.captchacode.focus();
+			//	return false;
+			//}
+
+			}
+			function RefreshImage(valImageId) {
+				var objImage = document.images[valImageId];
+				if (objImage == undefined) {
+					return;
+				}
+				var now = new Date();
+				objImage.src = objImage.src.split('?')[0] + '?x=' + now.toUTCString();
+			}
+			</script>

@@ -1,0 +1,111 @@
+<div class="inside_banner_news">
+      
+    </div>
+	
+	<div class="news_tab">
+      <ul class="fix">
+        <!-- <li class="cyan">
+          <a href="{$Categorys[7]['url']}">
+            <h2>
+              {$Categorys[7]['catname']}
+            </h2>
+            <p class="eg">
+              {$Categorys[7]['enname']}
+            </p>
+          </a>
+        </li> -->
+        <li>
+          <a href="{$Categorys[8]['url']}" tppabs="#">
+            <h2>
+              {$Categorys[8]['catname']}
+            </h2>
+            <p class="eg">
+              {$Categorys[8]['enname']}
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="{$Categorys[9]['url']}" tppabs="#">
+            <h2>
+              {$Categorys[9]['catname']}
+            </h2>
+            <p class="eg">
+              {$Categorys[9]['enname']}
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="{$Categorys[10]['url']}" tppabs="#">
+            <h2>
+              {$Categorys[10]['catname']}
+            </h2>
+            <p class="eg">
+              {$Categorys[10]['enname']}
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="{$Categorys[11]['url']}" tppabs="#">
+            <h2>
+              {$Categorys[11]['catname']}
+            </h2>
+            <p class="eg">
+              {$Categorys[11]['enname']}
+            </p>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+
+
+    <div class="news_list">
+      <ul>
+
+      <volist name="list" id="vo" >
+        <li>
+          <div class="news_time fl">
+            <span class="day">
+              {$vo.createtime|toDate=###,'d'}
+            </span>
+            <span class="year">
+              {$vo.createtime|toDate=###,'Y-m'}
+            </span>
+            <span class="author">
+              网站专家编辑
+            </span>
+            <span class="type">
+              <a href="#"  target="_blank">
+                一贯科技
+              </a>
+            </span>
+          </div>
+          <div class="news_cont fr">
+            <h2>
+              <a href="{$vo.url}"  target="_blank">
+                {$vo.title}
+              </a>
+            </h2>
+            <p class="demo">
+              <a href="{$vo.url}"  target="_blank">
+                {$vo.description}
+              </a>
+            </p>
+            <p class="vis">
+              <a href="{$vo.url}"  target="_blank" class="more btn">
+                查看更多 >>
+              </a>
+              浏览次数：{$vo.hits} &nbsp;&nbsp;
+              <a href="{$vo.url}">
+                {$vo.keywords}
+              </a>
+              &nbsp; &nbsp;
+            </p>
+          </div>
+        </li>
+
+      </volist>
+      
+      </ul>
+    </div>
+    <div class="page">{$pages}</div>

@@ -1,0 +1,44 @@
+<style type="text/css">
+    #bdsdk{ position: absolute; text-align:center; width: 140px; background: #fff; }
+    #bdsdk a{ display: inline-block; margin-bottom: 10px;  width: 140px; height: 30px; line-height: 30px; background: #00B4D7; color: #fff; font-size: 14px; font-weight: bold; }
+    #bdsdk a.disable{ background: #cecece; }
+</style>
+<?php 
+    $sdk = M('User_sdk')->where('uid='.$web_userid)->getField('type,id');
+?>
+<div id="bdsdk" >
+    <a href="{:U('Sdk/binding?type=sina','id='.$sdk[sina])}" {if $sdk[sina]} class="disable" {/if}>绑定微博登录</a>
+    <a href="{:U('Sdk/binding?type=qq','id='.$sdk[qq])}" {if $sdk[qq]} class="disable" {/if} >绑定QQ登录</a>
+    <a href="{:U('Sdk/binding?type=renren','id='.$sdk[renren])}" {if $sdk[renren]} class="disable" {/if}>绑定人人登录</a>
+    <a href="{:U('Sdk/binding?type=douban','id='.$sdk[douban])}" {if $sdk[douban]} class="disable" {/if}>绑定豆瓣登录</a>
+</div>
+
+<script type="text/javascript">
+    $(function(){
+        var obj = $('#bdsdk a');
+        obj.each(function(k,v){
+            var title = $(v).html();
+            if($(v).is('.disable')){
+                $(v).attr('title','点击取消'+title);
+                $(v).html('已'+title);
+            }else{
+                $(v).attr('title','点击'+title);
+            }
+        });
+        obj.click(function(){
+            var title = $(this).html();
+            if($(this).is('.disable')){
+                title = '是否取消'+title;
+            }else{
+                title = '是否'+title;
+            }
+
+            if(!confirm(title)){
+                return false;
+            }
+
+        });
+
+    });
+</script>
+

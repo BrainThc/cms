@@ -1,0 +1,1385 @@
+[ 2018-07-08T22:47:42+08:00 ] 202.105.118.133 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000647s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002348s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('91689f68005083218233e389713e1511',0,'','202.105.118.133',1531061262,4) [ RunTime:0.000153s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531059462 ) [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000836s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002072s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.002136s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.002292s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002362s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000381s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002308s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000330s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000618s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000229s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000379s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000295s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.060027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060088s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001180s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000433s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000281s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002634s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2018-07-08T22:56:59+08:00 ] 112.96.115.34 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000796s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Wap\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002379s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('f1fb00922cfd43030e791bb83808c658',0,'','112.96.115.34',1531061819,4) [ RunTime:0.000152s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531060019 ) [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001122s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `div_block` [ RunTime:0.002238s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_jianjie'  ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_copy'  ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002209s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 29 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 51 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 69 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 97 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001845s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000306s ]
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002006s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(4,7,8,9,10,11) ) ORDER BY id desc LIMIT 6   [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.002053s ]
+SQL: SELECT `title`,`caseurl`,`url`,`description`,`thumb` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000385s ]
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 308 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.040728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040786s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000726s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000560s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002513s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-07-08T22:59:31+08:00 ] 202.105.118.133 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000958s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002524s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002263s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('91f80c23b066a5b04451f2b91d3fc37f',0,'','202.105.118.133',1531061971,4) [ RunTime:0.000134s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531060171 ) [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001129s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002080s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001754s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000303s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.001803s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.001790s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.001746s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000217s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000498s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000166s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000278s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000218s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.055024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055088s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001404s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000603s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000455s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003313s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000740s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2018-07-08T23:10:15+08:00 ] 124.239.252.4 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000954s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002518s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002364s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('5f764c4425d92f19c70ef6b53c5659e9',0,'','124.239.252.4',1531062615,4) [ RunTime:0.000152s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531060815 ) [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001110s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001179s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002094s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001729s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000340s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.001885s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.001680s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000339s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.001835s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000274s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000524s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000221s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000353s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000262s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.055504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055565s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001347s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000597s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000454s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003246s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000735s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2018-07-08T23:10:17+08:00 ] 124.239.252.4 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000885s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002447s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.013171s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('5f764c4425d92f19c70ef6b53c5659e9',0,'','124.239.252.4',1531062616,4) [ RunTime:0.000163s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531060816 ) [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001158s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001226s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002080s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.002085s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000358s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.002335s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002049s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000366s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002207s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000290s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000577s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000226s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000382s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000287s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.058362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001343s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000595s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000474s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003258s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000736s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2018-07-08T23:46:37+08:00 ] 183.40.144.72 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000805s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Wap\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002519s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('fa93274f791a177f61d17bdc62b40980',0,'','183.40.144.72',1531064797,4) [ RunTime:0.000153s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531062997 ) [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000728s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `div_block` [ RunTime:0.002278s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_jianjie'  ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_copy'  ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002199s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 29 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 51 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 69 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 97 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001882s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002012s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(4,7,8,9,10,11) ) ORDER BY id desc LIMIT 6   [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.002096s ]
+SQL: SELECT `title`,`caseurl`,`url`,`description`,`thumb` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000387s ]
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 308 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.039266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039323s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000554s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000394s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000336s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001961s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2018-07-08T23:47:15+08:00 ] 183.40.144.72 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002525s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Wap\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002279s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('8ab981126497b7377c13257d4a6c21a6',0,'','183.40.144.72',1531064835,4) [ RunTime:0.000152s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531063035 ) [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001063s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001134s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `div_block` [ RunTime:0.001990s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_jianjie'  ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_copy'  ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002033s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 29 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 51 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 69 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 97 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.002027s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000305s ]
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002183s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(4,7,8,9,10,11) ) ORDER BY id desc LIMIT 6   [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.002190s ]
+SQL: SELECT `title`,`caseurl`,`url`,`description`,`thumb` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000406s ]
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 308 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.042098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042156s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000724s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000562s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000450s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002517s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000731s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2018-07-08T23:47:29+08:00 ] 183.40.144.72 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000590s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Wap\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002308s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('cf825b3cdb6c34dd119b708551fc7a35',0,'','183.40.144.72',1531064849,4) [ RunTime:0.000135s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531063049 ) [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000419s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `div_block` [ RunTime:0.002022s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_jianjie'  ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_copy'  ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.001985s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 29 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 51 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 69 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 97 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001653s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000240s ]
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.001778s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(4,7,8,9,10,11) ) ORDER BY id desc LIMIT 6   [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.001801s ]
+SQL: SELECT `title`,`caseurl`,`url`,`description`,`thumb` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000319s ]
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 308 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.037121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037179s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000494s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000374s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000338s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001874s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-07-08T23:59:45+08:00 ] 112.96.193.184 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000806s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Wap\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002344s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('de6fded8bf63524e07edbb7bc2a26171',0,'','112.96.193.184',1531065585,4) [ RunTime:0.000152s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531063785 ) [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000742s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `div_block` [ RunTime:0.002602s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_jianjie'  ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_copy'  ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002340s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 29 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 51 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 69 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 97 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001859s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(4,7,8,9,10,11) ) ORDER BY id desc LIMIT 6   [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.002228s ]
+SQL: SELECT `title`,`caseurl`,`url`,`description`,`thumb` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000388s ]
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 308 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.039782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039840s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000554s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000392s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000364s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001974s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000616s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2018-07-08T23:59:52+08:00 ] 203.208.60.147 /index.php?g=home&m=article&a=index&id=9&p=2
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000595s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002168s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('29b922364b4397c518563ad1105e0da5',0,'','203.208.60.147',1531065592,4) [ RunTime:0.000144s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1531063792 ) [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_article` WHERE (  status=1  and catid=9 ) LIMIT 1   [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: parameter D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Page.class.php 第 47 行.
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 881 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 881 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 874 行.
+NOTIC: [2] Illegal string offset 'createtime' D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 887 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 887 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 887 行.
+NOTIC: [2] Illegal string offset 'createtime' D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 888 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 888 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 888 行.
+NOTIC: [2] Illegal string offset 'createtime' D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 889 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 889 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 889 行.
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Page.class.php 第 145 行.
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Page.class.php 第 145 行.
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Page.class.php 第 145 行.
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Page.class.php 第 145 行.
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Page.class.php 第 145 行.
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Page.class.php 第 145 行.
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`userid`,`username`,`hits`,`keywords`,`description`,`thumb`,`createtime`,`status`,`listorder` FROM `div_article` WHERE (  status=1  and catid=9 ) ORDER BY listorder asc,id desc LIMIT 8,8   [ RunTime:0.000843s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000645s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\803b312f53041c1e4b2f7af79385c6ca_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\803b312f53041c1e4b2f7af79385c6ca_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\803b312f53041c1e4b2f7af79385c6ca_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021132s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000584s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000328s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000336s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001922s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+

@@ -1,0 +1,175 @@
+ 
+
+ <div class="ng-body ng-fault">
+                          <!--ng-body-->
+                                
+               <div class="swiper-container ng-fault ng-eswiper">
+                      <div class="swiper-wrapper">
+                            <tp:flash flashid="1" />
+                      </div>
+                      <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="ng-indexnes ng-fault ng-container" style="background-image:url(__STYLE__/wap/img/inain.png);">
+                                <div class="ng-indexnes-the ng-pull-left">
+                                        <span>最新动态</span>
+                                </div>
+                                <div class="ng-indexnes-news ">
+                                          
+                                    <div class="ng-vinlst">
+                                      <div class="bd">
+                                          <ul class="infoList">
+                                              <tp:list order="id desc" catid="4" limit="6" id="vo">
+                                                    <li><span>{$vo.createtime|toDate=###,'Y-m-d'}&nbsp;</span><a href="{$vo.url}">{$vo.title} </a></li>
+                                              </tp:list>
+                                          </ul>
+                                      </div>
+                                    </div>
+                              </div>
+              </div>
+
+
+             
+             <div class="ng-indov-the ng-fault ng-paddor">
+                  <div class="row">
+                            <div class="col-xs-9">
+                                <div class="ng-indov-the-tit ng-fault">服务范围</div>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="" class="ng-indov-the-ikk ng-fault text-right"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                            </div>
+                  </div>
+           </div>
+
+             <div class="i_one">
+              <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                <tbody>
+                <tr>
+                  <td width="50%"><a href="#" title="电脑网站建设"><img src="__STYLE__/wap/img/f1.png" alt="电脑网站建设">电脑网站建设</a></td>
+                  <td><a href="#" title="手机网站建设"><img src="__STYLE__/wap/img/f2.png" alt="手机网站建设">手机网站建设</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#" title="微官网、小程序建设"><img src="__STYLE__/wap/img/f3.png" alt="手机、微信网站建设">微官网、小程序建设</a></td>
+                  <td><a href="#" title="网站优化推广"><img src="__STYLE__/wap/img/f4.png" alt="网站优化推广">网站优化推广</a></td>
+                </tr>
+              </tbody>
+              </table>
+
+              </div>
+
+
+
+
+              <div class="ng-indov-the ng-fault ng-paddor">
+                  <div class="row">
+                            <div class="col-xs-9">
+                                <div class="ng-indov-the-tit ng-fault">成功案例</div>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="{$Categorys[2]['url']}" class="ng-indov-the-ikk ng-fault text-right"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                            </div>
+                  </div>
+           </div>
+
+
+           <div class="container m-top">
+                <div class="row">
+
+                <tp:list name="Product" order="id desc" field="title,caseurl,url,description,thumb"  catid="12" id="vo" limit="10">
+                      <div class="col-xs-6 pro-v">
+                        <a href="{$vo.caseurl}">
+                          <div class="pro-img">
+                              <img src="{$vo.thumb}" class="img-responsive">
+                          </div>
+                          <p class="pro-p">{$vo.title}</p>
+                        </a>
+                      </div>
+                  </tp:list>
+                </div>
+            </div>
+
+
+            <div class="ng-indov ng-fault">
+                                          
+                                           <div class="ng-indov-the ng-fault ng-paddor">
+                                                  <div class="row">
+                                                            <div class="col-xs-9">
+                                                                <div class="ng-indov-the-tit ng-fault">专业的我们</div>
+                                                            </div>
+                                                            <div class="col-xs-3">
+                                                                <a href="" class="ng-indov-the-ikk ng-fault text-right"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                                                            </div>
+                                                  </div>
+                                           </div>
+
+
+                                           
+                                            
+                                            <div class="ng-indov-body ng-fault ng-paddor m-top">
+                                              
+                                                       <div class="ng-fault">
+                                                            
+                                                            <div class="row">
+                                                                <div class="col-xs-12">
+                                                                    <img src="__STYLE__/wap/img/p1.jpg" class="img-responsive img-thumbnail">
+                                                                </div>
+
+                                                                <div class="col-xs-12">
+                                                                    <div class="about-p"><tp:block pos="m_jianjie"/></div>                                                                    
+                                                                </div>
+
+                                                            </div>
+                                                        
+                                                                
+                                                                
+                                                                
+                                                       </div>
+                                                       
+                                            </div>
+                                           
+                                 </div>
+                                 
+                                 
+                                 
+                                 
+                                 
+                             <div class="ng-indov ng-fault">
+                                          
+                                           <div class="ng-indov-the ng-fault ng-paddor">
+                                                  <div class="row">
+                                                            <div class="col-xs-9">
+                                                                <div class="ng-indov-the-tit ng-fault">联系我们</div>
+                                                            </div>
+                                                            <div class="col-xs-3">
+                                                                <a href="" class="ng-indov-the-ikk ng-fault text-right"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                                                            </div>
+                                                  </div>
+                                           </div>
+
+                                           <a href="tel:0757-82903896" title="联系一贯科技顾问" class="i_tel_a"><img src="__STYLE__/wap/img/i_pic5.png"><span>点我免费咨询</span></a>
+                                            
+                                           <div class="container">
+                                             <div class="row">
+                                                    <div class="col-xs-6 pro-v">
+                                                        <div class="pro-img1">
+                                                            <img src="__STYLE__/wap/img/yiguan.jpg" class="img-responsive">
+                                                        </div>
+                                                        <p class="pro-p1">微信公众号</p>
+                                                      </a>
+                                                    </div>
+
+                                                    <div class="col-xs-6 pro-v">
+                                                        <div class="pro-img1">
+                                                            <img src="__STYLE__/wap/img/yiguan.jpg" class="img-responsive">
+                                                        </div>
+                                                        <p class="pro-p1">微官网</p>
+                                                      </a>
+                                                    </div>
+                                             </div>
+                                            </div> 
+                                           
+                                 </div>
+</div>
+
+
+

@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/*表单验证*/
+em.error {overflow:hidden;zoom:1;background:url("../Images/unchecked.gif") no-repeat 4px;  padding-left: 19px;color:red;}
+em.success {overflow:hidden;zoom:1;background:url("../Images/checked.gif") no-repeat 4px;  padding-left: 19px;color:red;}
+
+label{ cursor:pointer;}
+
+/*分页样式*/
+#pages { clear:both; padding:10px 0px;text-align:center;}
+#pages a,
+#pages span { display:inline-block;line-height:22px; text-align:center; margin-right:2px;  color:#333333; padding:3px 5px; border:1px solid #ccc; min-width:20px;}
+
+#pages a:hover { background:#0567B5; color:#fff; text-decoration:none; }
+#pages span {border:1px solid #ccc; background:#ECECEC; color:#333333; font-weight:bold;}
+.page .noPage { display:inline-block;  padding:0px 12px; height:22px; line-height:22px;border:1px solid #e3e3e3; text-align:center; color:#a4a4a4; }
+#pages a.a1 ,#pages a.a1:hover { background: none; color: inherit; }
+
+
+

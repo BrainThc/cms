@@ -1,0 +1,214 @@
+
+
+
+ <!--banner-->
+    <div class="inside_banner_chat">
+      <div class="chat-box">
+        <ul>
+          <li>
+            <div class="info">
+              <i class="i1"></i>
+              <h2>公司地址</h2>
+              <p class="text">广东省佛山市禅城区季华六路九鼎国际金融中心二座1513</p>
+            </div>
+          </li>
+          <li>
+            <div class="info">
+              <i class="i2"></i>
+              <h2>联系方式</h2>
+              <p class="text">联系电话：0757-82903896</p>
+            </div>
+          </li>
+          <li>
+            <div class="info">
+              <i class="i3"></i>
+              <h2>电子邮箱</h2>
+              <p class="text">1010426086@qq.com</p>
+            </div>
+          </li>
+          <li>
+            <div class="info">
+              <i class="i4"></i>
+              <h2>联系QQ</h2>
+              <p class="text">客服小张：1010426086<br>客服小司：395537498</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="chat_map">
+      <div class="chat_map_l fl">
+        <img src="__STYLE__/img/chat1.png">
+      </div>
+      <div class="chat_map_r fr">
+          <div class="ng-baidumap">
+                 <iframe src="__STYLE__/baiduapi.html"></iframe>
+          </div>
+      </div>
+    </div>
+
+    <div class="chat_message">
+        <div class="chat_message_l fl">
+          <img src="__STYLE__/img/chat2.png">
+        </div>
+        <div class="chat_message_r fr">
+            <h4>提交您的留言，我们将尽快联系您</h4>
+            <div class="chat_message_form">
+
+                <form name="myform" id="myform" action="{:U('Home/Index/insert')}" method="post" onsubmit="return checkform2(this);">
+
+                  <div class="chat_message_input fl">
+                    <input type="text" class="v-input1" id="username" name="username" placeholder="您的姓名">
+                  </div>
+                  <div class="chat_message_input fr">
+                    <input type="text" class="v-input1" id="company" name="company" placeholder="公司名称">
+                  </div>
+                  <div class="chat_message_input fl">
+                    <input type="text" class="v-input1" id="Tel" name="tel" placeholder="您的联系电话">
+                  </div>
+                  <div class="chat_message_input fr">
+                    <input type="text" class="v-input1" id="weixin" name="weixin" placeholder="您的QQ或微信">
+                  </div>
+                  <div class="chat_message_input fl">
+                    <input type="text" class="v-input1" id="address" name="address" placeholder="您的公司地址">
+                  </div>
+                  <div class="c"></div>
+                  <div class="chat_message_des">
+                    <div class="chat_message_des_l fl">
+                      <textarea name="content" id="content" placeholder="您的要求描述"></textarea>
+                    </div>
+                    <div class="chat_message_des_r fr">
+                      <input type="submit" value="提交" class="chat_message_submit">
+
+                    </div>
+
+                    
+
+                  </div>
+                  <div class="c"></div>
+<input type="hidden" name="module" value="Guestbook" />
+                  
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- <script type="text/javascript">
+        function checkInfo(MesAdd){
+        var emailreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+           if($("#username").val()==""){
+              layer.tips('请填写您的姓名','#username',{tips:[3,"#0a963d"]});
+              $("#username").focus();
+              return false;
+           }
+           if($("#email").val()==""){
+              layer.tips('请填写您的邮箱','#email',{tips:[3,"#0a963d"]});
+              $("#email").focus();
+              return false;
+           }
+           if(!emailreg.test($("#email").val())){
+             layer.tips('请填一个有效的邮箱','#email',{tips:[3,"#0a963d"]});
+              $("#email").focus();
+              return false;
+           }
+           if($("#content").val()==""){
+              layer.tips('请填写留言内容','#content',{tips:[3,"#0a963d"]});
+              $("#content").focus();
+              return false;
+           }
+           if($("#verifyCode").val()==""){
+              layer.tips('请填写验证码','#verifyCode',{tips:[3,"#0a963d"]});
+              $("#verifyCode").focus();
+              return false;
+           }
+        }
+    </script> -->
+
+    <script language="javascript">
+      function chkemail(a)
+      {
+        var i=a.length;
+          var temp = a.indexOf('@');
+          var tempd = a.indexOf('.');
+          if (temp >= 1) {
+            if ((i-temp) > 3){
+                
+                    if ((i-tempd)>0){
+                        return 1;
+                    }
+                
+            }
+          }
+        return 0;
+      }
+      function IsDigit(cCheck)  
+      {  
+          return (('0'<=cCheck) && (cCheck<='9'));  
+      } 
+      function checkform2(nForm)  
+      {
+        if(nForm.username.value==""||nForm.username.value=="姓名")
+        {
+          alert("请留下您的姓名!");
+          nForm.username.focus();
+          return false;
+        }
+
+        if(nForm.company.value==""||nForm.company.value=="公司名称")
+        {
+          alert("请留下您的公司名称!");
+          nForm.company.focus();
+          return false;
+        }
+         
+
+      // if (nForm.email.value ==""||chkemail(nForm.email.value)==0||nForm.email.value =="邮箱")
+      //      {
+      //      alert("请输入正确的，可以联络到您的E-mail");
+      //      nForm.email.focus();
+      //      return false;
+      //      }
+          
+      if(nForm.Tel.value==""||nForm.Tel.value=="电话"){
+      alert(" 请留下您的电话,以便我们与您联系!") ;
+      nForm.Tel.focus();
+      return false;
+      }  
+
+      if( IsDigit(nForm.Tel.value)==0)
+      {
+      alert("电话必须为数字!");
+      nForm.Tel.focus();
+      return false;
+      }
+      if(nForm.address.value==""||nForm.address.value=="您的公司地址")
+        {
+          alert("请留下您的公司地址!");
+          nForm.company.focus();
+          return false;
+        }
+
+      if(nForm.content.value==""){
+        alert("请写下您的合作需求!");
+        nForm.content.focus();
+        return false;
+      }
+      //if(nForm.captchacode.value==""){
+      //  alert("请输入验证码!");
+      //  nForm.captchacode.focus();
+      //  return false;
+      //}
+
+      }
+      function RefreshImage(valImageId) {
+        var objImage = document.images[valImageId];
+        if (objImage == undefined) {
+          return;
+        }
+        var now = new Date();
+        objImage.src = objImage.src.split('?')[0] + '?x=' + now.toUTCString();
+      }
+      </script>

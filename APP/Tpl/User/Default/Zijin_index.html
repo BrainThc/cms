@@ -1,0 +1,160 @@
+<div id="contect">
+	<include file="User:nav" />
+	<div class="contect">
+		<p class="tianh6">在线充值</p>
+		<div class="vipmsgt">
+			<div class="vipzaixian">
+				<form id="myadd" action="{:U('insert')}" method="pos">
+					<input type="hidden" name="id" id="orderid" value="{$vo.id}" > 
+					<label>充值金额</label>
+					<input type="text" name="price" id="myprice" value="{$vo.price}" style="width:140px;height:32px;margin-left:10px ;margin-right:10px ;">
+					<span class="yellow">元</span>
+					<span style="padding-left: 170px;">可用余额</span><i class="yellow" style="padding-left: 20px; font-size: 20px;">{$users.amount}元</i>
+				</form>
+				<div class="bd1">
+					<div class="bd2">
+						<span>网上银行<i class="fense">(需要专业版网银key,实时到账)</i></span>
+					</div>
+					<div class="slidebd">
+						<div id="mybanks">
+							<volist name="payment" id="pay" key="k">
+								<a href="javascript:void(0);" title="{$pay.pay_name}" data-id="{$pay.id}"><img src="__STYLE__/pay/{$pay.pay_code|strtolower=###}.jpg" alt="{$pay.pay_name}"></a>
+							</volist>
+
+						</div>
+						<p class="movebank" > 
+							<a href="javascript:void(0);" class="fense" style="display:none;">更多银行</a>
+						</p>
+						<p style="text-align:center" id="onzhifu" ><a href="javascript:void(0);" class="btnc" onclick="alert('请选择一个支付方式！');">充值</a></p>
+
+						<!--点击充值后弹窗-->
+						<div class="closexx"></div>
+						<div class="wancheng">
+							<p class="loginPrice">登录网上银行充值</p>
+							<div class="bk1">
+								<p class="blink">请在新打开的网银页面完成充值后选择</p>
+								<p class="gou1">已完成充值
+									<a href="{$Categorys[$T[m_pro_catid]][url]}">马上投资</a>
+									<a href="{:U('Index/index')}">查看余额</a>
+									<a href="{:U('index')}">继续充值</a>
+								</p>
+								<p class="gou2">未完成充值
+									<a href="">联系客服</a>
+									<a href="javascript:void(0);" onclick="onclose();" >重新选择银行</a>
+								</p>
+								<p class="close2"><a href="">关闭</a></p>
+							</div>
+							<script type="text/javascript">
+								function onclose(){
+									$('.closexx').hide();
+									$('.wancheng').hide();
+								}
+								$(function(){
+									$('.closexx').click(function(){
+										onclose();
+										return false;
+									});
+									$('.close2 a').click(function(){
+										onclose();
+										return false;
+									});
+								});
+							</script>
+						</div>
+
+
+
+					</div>
+				</div>
+				
+			</div>
+			<div class="recond">
+				<p class="blue">充值记录</p>
+				<table width="912" align="center">
+					<tr class="th1">
+					 	<td>时间</td>
+					 	<td>充值渠道</td>
+					 	<td>金额（元）</td>
+					 	<td>对账账号</td>
+					 	<td>状态</td>
+					 </tr>
+					 <volist name="list" id="r" key="k">
+					 <tr >
+					 	<td>{$r.createtime|toDate=###,'Y-m-d H:i:s'}</td>
+					 	<td>{$r.pay_name}</td>
+					 	<td><span style="padding-left: 10px;">{$r.price}</span></td>
+					 	<td>{$r.account}</td>
+					 	<td>{if $r[status]==2}已充值{else}充值中{/if}</td>
+					 </tr>
+					 </volist> 
+  
+				</table>
+				<div id="pages">{$pages}</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<style>
+	#mybanks a{ display: inline-block; height: 47px; text-align: center; }
+	#mybanks a img{ height: 45px; vertical-align: middle; }
+	#mybanks a.on img{ border: 1px solid #E43D3F;  }
+	#onzhifu form{ padding-bottom: 0px; }
+	#onzhifu .button{ margin-left: 0px;margin-bottom: 46px;background: #e43d3f;width: 170px;height: 48px;line-height: 48px; border: none;color: #fff;font-weight: bold;cursor: pointer;font-size: 16px; }
+</style>
+{if $vo[pay_id]}
+<script type="text/javascript">
+	//初始化默认
+	$(function(){
+		var obj = $('#mybanks a[data-id={$vo.pay_id}]').eq(0);
+			obj.addClass('on');
+			zfbtn('{$vo.id}','{$vo.pay_id}','{$vo.price}');
+
+	});
+</script>
+{/if}
+<script type="text/javascript">
+	var onbtn = $('#onzhifu').html();
+	$(function(){
+		var myprice = $('#myprice');
+		var banka = $('#mybanks a');
+		banka.click(function(){
+			banka.removeClass('on');
+
+			var price = myprice.val();
+			if(price!=parseFloat(price)){
+				alert('请填写金额!');
+				myprice.val(null);
+				myprice.focus();
+				return false;
+			}
+
+			var paymentid = $(this).attr('data-id');
+			zfbtn($('#orderid').val(),paymentid,price);
+
+			$(this).addClass('on');
+		});
+
+
+
+	});
+
+	//调用支付按钮
+	function zfbtn(orderid,paymentid,price){
+		$.get("{:U('zfbtn')}",{ id:orderid, payment:paymentid,price:price },function(data){
+			if(data){
+				$('#orderid').val(data.id);
+				$('#onzhifu').html(data.paybutton);
+				$('#onzhifu input.button').click(function(){
+					$.get("{:U('status')}",{ id:data.id });
+					$('.closexx').show();
+					$('.wancheng').show();
+				});
+			}else{
+				$('#onzhifu').html(onbtn);
+				alert('获取失败！');
+			}
+		},'json');
+	}
+</script>

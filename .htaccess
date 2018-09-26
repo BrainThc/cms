@@ -1,0 +1,13 @@
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ /index.php?s=$1 [QSA,PT,L]
+#RewriteRule ^(.*)APP/Tpl/(.*).html$ /403.html [QSA,PT,L]
+#RewriteRule ^(.*)/(.*).php$ /403.html [QSA,PT,L]
+
+
+
+
+rewriteEngine on
+rewriteCond %{http_host} ^ieconn.com [NC]
+rewriteRule ^(.*)$ http://www.ieconn.com/$1 [R=301,L]

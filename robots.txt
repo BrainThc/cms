@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /Public/
+Disallow: /APP/
+Disallow: /Install/
+Disallow: /Uploads/
+Disallow: /hope/
+Disallow: /Cache/

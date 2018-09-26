@@ -1,0 +1,45 @@
+
+
+<header class="ng-header ng-fault ng-container ">
+	   <!--ng-header-->
+	         <h1 class="ng-helog"><a href="{:HOMEURL()}"><img src="__STYLE__/wap/img/logo.png" alt="" /></a></h1>
+	         <div class="ng-paddor">
+	         	       <span class="ng-hekind ng-pull-right">
+	         	       	           <a href="javascript:;" class="ng-tonavbtn">
+	         	       	           	       <span></span>
+	         	       	           	       <span></span>
+	         	       	           </a>
+	         	       </span>
+	         </div>
+	    <!--ng-headerOver-->
+</header>
+
+
+
+ <div class="ng-whlist">
+                 	     <!--ng-whlist-->
+                 	                   <ul>
+	                 	                   	<li>
+	                 	                   		<a href="{:HOMEURL()}" class="ng-whikk">首页</a>
+	                 	                   	</li>
+
+										<tp:subcat  catid="0" id="z" key="k">
+	                 	                   	<li>
+	                 	                   	{if $k > 1 && $k < 5}
+	                 	                   		<a href="{$z.url}" class="ng-whikk  ng-whikk-decline">{$z.catname}</a>
+											{/if}
+	                 	                   		  <div class="ng-whi-map">
+	                 	                   		  	        <ul>
+	                 	                   		  	          <tp:subcat catid="$z[id]" id="x">
+	                 	                   		  	        	<li>
+	                 	                   		  	        		  <a href="{$x.url}" class="ng-whikk">{$x.catname}</a>
+	                 	                   		  	        	</li>
+	                 	                   		  	          </tp:subcat>
+	                 	                   		  	        </ul>
+	                 	                   		  </div>
+	                 	                   	</li>
+
+	                 	                </tp:subcat>
+                 	                   </ul>
+                 	      <!--ng-whlistOver-->
+                 </div>

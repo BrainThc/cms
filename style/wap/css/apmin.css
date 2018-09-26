@@ -1,0 +1,154 @@
+/*DC.min*/
+
+@charset "utf-8";
+@media screen and (max-width : 1920px){
+
+}
+@media screen and (max-width : 1370px){
+	
+}
+@media screen and (max-width : 1320px){
+   
+}
+  
+@media screen and (max-width : 1280px){
+	
+}
+@media screen and (max-width : 1220px){
+	
+}
+
+@media screen and (max-width : 1180px){
+	
+	   
+}
+@media screen and (max-width : 1080px){
+	  
+   
+}
+@media screen and (max-width : 1024px){
+	
+} 
+
+@media screen and (max-width : 992px){
+   
+}
+@media screen and (max-width:860px){
+
+}
+@media screen and (max-width : 768px){
+    
+}
+
+ @media screen and (max-width: 641px) {
+     
+}
+ @media screen and (max-width: 606px){
+ 
+ }
+  @media screen and (max-width: 583px){
+       
+ }
+  @media screen and (max-width: 560px){
+   
+
+ }
+   @media screen and (max-width: 540px){
+    
+ }
+  @media screen and (max-width: 510px){
+
+ }
+ @media screen and (max-width: 530px){
+   
+}
+ @media screen and (max-width: 500px){
+     
+
+ }
+@media screen and (max-width: 480px){
+        .ng-absdoc-tit{font-size:2.2rem;}
+        .ng-absdoc-iff{font-size:1.6rem;}
+        .ng-absdoc-list{margin:0px auto; padding:0px 4px;}
+        .ng-absdoc-iff{margin:4px auto 14px;}
+        .ng-absdoc-list ul{margin-left:-4px; margin-right:-4px;}
+        .ng-absdoc-list ul li{padding:0px 4px;}
+        .ng-absdoc-dunc-tit{font-size:1.2rem;}
+        .ng-absdoc{padding:14px 6px;}
+        .ng-bsimg{max-width:120px;}
+        .ng-ustexst{font-size:1.3rem; line-height:20px;}
+        
+       .ng-news-texs{height:100px; padding:0px 0px 0px 162px;} 
+       .ng-news-img{width:150px; height:100px;}
+       .ng-news-texs-tit{font-size:1.4rem;}
+       .ng-news-dow-link{font-size:1.3rem;}
+       .ng-vinpro-show{width:100px; height:100px;background: #1D67BD;border-radius: 10px;}
+       .ng-vinpro-show h3{height: 65px;text-align: center;line-height: 65px;font-size: 30px;color: #fff;}
+       .ng-vinpro-show p{height: 35px;text-align: center;line-height: 35px;color: #fff;background: rgba(78,149,232,0.6);border-radius: 0px 0px 10px 10px;}
+       .ng-vinpro-info{padding:0px 0px 0px 112px; height:98px;}
+       .ng-proz-tit{ line-height:26px; height:26px; margin:0px auto 4px;}
+       .ng-proz-text{line-height:21px; height:62px;color:#6B6B6B;}
+ }
+ @media screen and (max-width: 472px){
+
+ }
+  @media screen and (max-width: 440px){
+          .ng-vibns{padding:0px 4px;}
+          .ng-enbon-rq{width:110px;}
+ }
+  @media screen and (max-width: 435px){
+  	 
+  }
+/*iphone6 plus - iphone6s plus*/
+ @media screen and (max-width: 416px) {
+          .ng-vibns{max-width:400px;}
+             .ng-enbon-rq{width:90px; margin-right:0px;}
+             .ng-enbon-envmap-img img{max-width:56%;}
+             .ng-enbon-rq-tit{font-size:1.4rem;}
+              .ng-news-texs{height:94px; padding:0px 0px 0px 150px;} 
+            .ng-news-img{width:140px; height:94px;}
+            .ng-news-texs-iff{font-size:1.2rem; height:42px;}
+}
+ @media screen and (max-width: 395px) {
+         .ng-ustexst{ line-height:19px;}
+         .ng-bsimg{max-width:80px;}
+         
+       .ng-vinpro-show{width:90px; height:90px;background: #1D67BD;border-radius: 10px;}
+       .ng-vinpro-show h3{height: 60px;text-align: center;line-height: 60px;font-size: 30px;color: #fff;}
+       .ng-vinpro-show p{height: 30px;text-align: center;line-height: 30px;color: #fff;background: rgba(78,149,232,0.6);border-radius: 0px 0px 10px 10px;}
+       .ng-vinpro-info{padding:0px 0px 0px 100px; height:88px;}
+       .ng-proz-tit{ font-size:1.4rem; line-height:26px; height:26px; margin:0px auto 2px;}
+       .ng-proz-text{line-height:20px; height:60px; font-size:1.2rem;color: #6B6B6B;}
+       .ng-vze-tit{font-size:1.4rem;}
+       .ng-vze-date{font-size:1.3rem;}
+       .ng-ssion-tit{font-size:1.5rem;}
+       .ng-ssion-date{font-size:1.3rem;}
+} 
+ @media screen and (max-width: 380px){
+       .ng-paddor{padding-left:10px; padding-right:10px;}
+       .ng-indexnes-the{padding:5px 10px;}
+ }
+/*iphone6 - iphone6s */
+ @media screen and (max-width: 376px) {
+           .ng-absdoc-tit{font-size:1.8rem; line-height:32px;}
+           .ng-absdoc-iff{font-size:1.5rem; margin:4px auto 10px;}
+           .ng-absdoc-list ul li{margin:0px 0px 8px;}
+           .ng-enbon-envmap{ margin:0px auto 0px;}
+           .ng-enbon-rq{width:120px; margin:0px auto 0px; float:none !important;}
+            .ng-enbon-rq-tit{font-size:1.5rem;}
+           .ng-acfull{ overflow: hidden; width:100%; vertical-align:middle;  margin:0px auto 10px; display:block;}
+           
+} 
+@media screen and (max-width: 360px){
+         
+}
+ @media screen and (max-width: 340px) {
+     
+}
+/*iphone5 - iphone5s and 5e,5s*/
+@media screen and (max-width: 321px) {
+    
+
+}
+
+

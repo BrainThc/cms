@@ -1,0 +1,1803 @@
+[ 2018-07-06T22:53:12+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=32
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000589s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002353s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530888792,4) [ RunTime:0.000146s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530886992 ) [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=32 ) LIMIT 1   [ RunTime:0.000158s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000686s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\c424c37046a15657b354aba78a9812d9_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\c424c37046a15657b354aba78a9812d9_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\c424c37046a15657b354aba78a9812d9_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002151s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000374s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.019627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019693s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000692s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000388s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000310s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002210s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2018-07-06T22:53:31+08:00 ] 120.31.136.109 /index.php
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000798s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002335s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('8c90032eeda7e8b574f63945eb2b60a7',0,'','120.31.136.109',1530888811,4) [ RunTime:0.000153s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530887011 ) [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000769s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000836s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002266s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001805s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000344s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.001930s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.001701s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000339s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.001872s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000276s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000536s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000222s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000270s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.054074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054145s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001260s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000424s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002753s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000616s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2018-07-06T22:53:35+08:00 ] 113.72.16.188 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000591s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002257s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530888815,4) [ RunTime:0.000168s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530887015 ) [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000664s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002075s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000269s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001764s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000358s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.002317s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002040s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000369s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002219s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000281s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000559s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000228s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000368s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000293s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.054584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054645s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001128s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000360s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002564s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000616s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-07-06T22:54:08+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000920s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002436s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002385s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530888848,4) [ RunTime:0.000163s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530887048 ) [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001069s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002133s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000338s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.021591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021650s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000660s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000527s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000430s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-07-06T22:54:39+08:00 ] 203.208.60.204 /index.php?g=home&m=service&a=index&id=31
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000802s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Wap\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Wap\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002338s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('ed300093e1c7baf953536d068a4ae4ae',0,'','203.208.60.204',1530888879,4) [ RunTime:0.000153s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530887079 ) [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=31 ) LIMIT 1   [ RunTime:0.000175s ]
+INFO: [ view_template ] --START--
+
+[ 2018-07-06T22:54:39+08:00 ] ERR: (ThinkException) _TEMPLATE_NOT_EXIST_[./APP/Tpl/Wap/Default/Service_list_seo.html]
+[ 2018-07-06T22:55:08+08:00 ] 101.227.131.219 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000588s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002292s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('3f32e80ea79cb9bf419aa7b59af789cb',0,'','101.227.131.219',1530888908,4) [ RunTime:0.000149s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530887108 ) [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002237s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000171s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000800s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002134s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000388s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.020418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020483s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000632s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000482s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000439s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002359s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2018-07-06T22:55:45+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000585s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002360s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530888945,4) [ RunTime:0.000167s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530887145 ) [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000174s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000704s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002136s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000386s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.019460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019526s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000595s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000387s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000416s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002220s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-07-06T23:07:28+08:00 ] 183.40.169.190 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000799s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Wap\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002382s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('bd3ef35f43f3c6fd3bd00c1a020fde61',0,'','183.40.169.190',1530889648,4) [ RunTime:0.000152s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530887848 ) [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000904s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `div_block` [ RunTime:0.001993s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_jianjie'  ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT * FROM `div_block` WHERE (  1  and lang=1 and pos='m_copy'  ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002013s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 29 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 51 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 69 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 78 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 97 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.002029s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php 第 100 行.
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002225s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(4,7,8,9,10,11) ) ORDER BY id desc LIMIT 6   [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.002277s ]
+SQL: SELECT `title`,`caseurl`,`url`,`description`,`thumb` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000424s ]
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Wap\3de21de9e2b16db75fcfbf2cd3916cad_cn.php on line 308 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.041484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041544s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000813s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000618s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002516s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2018-07-06T23:17:31+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000800s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002432s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530890251,4) [ RunTime:0.000162s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530888451 ) [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002467s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000176s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000837s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002365s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000402s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.020423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020490s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000639s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000381s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2018-07-06T23:19:59+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000922s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002444s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002490s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530890399,4) [ RunTime:0.000157s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530888599 ) [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001003s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002108s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000389s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.021362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021429s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000804s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000658s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000535s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002916s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000888s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2018-07-06T23:22:20+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000797s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002364s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530890540,4) [ RunTime:0.000146s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530888740 ) [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000156s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000780s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002144s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000374s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.020049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020117s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000621s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000485s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000336s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000616s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-07-06T23:22:48+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000591s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002353s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530890568,4) [ RunTime:0.000145s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530888768 ) [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000158s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000492s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002136s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000372s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.019030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019098s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000535s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000440s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000419s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002195s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-07-06T23:23:26+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000799s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002353s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530890606,4) [ RunTime:0.000164s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530888806 ) [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000175s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000831s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000900s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002123s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000386s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.020236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020303s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000619s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000480s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000349s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2018-07-06T23:25:22+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000924s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002343s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530890722,4) [ RunTime:0.000159s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530888922 ) [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002224s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000998s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.016244s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000379s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.035502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035570s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000810s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000673s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000537s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002941s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000887s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2018-07-06T23:30:09+08:00 ] 113.72.16.188 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000803s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002295s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('e90a4bf93bf2e224365ef76207d51bfb',0,'','113.72.16.188',1530891009,4) [ RunTime:0.000131s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889209 ) [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000803s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000871s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002336s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001960s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000309s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.002211s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.001626s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000284s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.001941s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000247s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000504s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000167s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000221s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.054380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054444s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001247s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000429s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000338s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002776s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2018-07-06T23:30:45+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000799s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002353s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530891045,4) [ RunTime:0.000156s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889245 ) [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000167s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000955s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002120s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000380s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.021174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000684s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000415s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002433s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000770s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-07-06T23:30:50+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000923s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002345s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530891050,4) [ RunTime:0.000155s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889250 ) [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002266s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000168s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001074s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002115s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000389s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.021372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021439s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000809s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000657s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000537s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002923s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000890s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2018-07-06T23:31:24+08:00 ] 113.72.16.188 /index.php?g=home&m=article&a=show&id=78
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000858s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002341s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('e90a4bf93bf2e224365ef76207d51bfb',0,'','113.72.16.188',1530891084,4) [ RunTime:0.000153s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889284 ) [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.002266s ]
+SQL: SELECT * FROM `div_article` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: UPDATE `div_article` SET `hits`=hits+1 WHERE ( id=78 ) [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: noread D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 284 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: userid D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: title_style D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: options D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 9 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 12 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: listorder D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: updatetime D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: lang D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 309 行.
+NOTIC: [8] Undefined index: fieldtype D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 313 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000877s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\ec49802f2744ec691b6f349db2aa690c_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\ec49802f2744ec691b6f349db2aa690c_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\ec49802f2744ec691b6f349db2aa690c_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.001935s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000277s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.020816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000684s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000529s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000429s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002384s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2018-07-06T23:31:46+08:00 ] 61.151.226.67 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000592s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002282s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('5257d7b333313e05a6260023eb87a44e',0,'','61.151.226.67',1530891105,4) [ RunTime:0.000134s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889305 ) [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000156s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000713s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000784s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002181s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000374s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.019209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019276s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000583s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000433s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000416s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002236s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000768s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2018-07-06T23:33:53+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000801s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002243s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530891233,4) [ RunTime:0.000147s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889433 ) [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000156s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000763s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002212s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000373s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.020098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020165s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000623s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000471s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000420s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2018-07-06T23:34:05+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000654s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002306s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530891245,4) [ RunTime:0.000159s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889445 ) [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000170s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000958s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002108s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000380s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.021179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021248s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000684s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000535s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000415s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002434s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2018-07-06T23:36:58+08:00 ] 113.72.16.188 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000926s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002435s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002307s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530891418,4) [ RunTime:0.000157s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889618 ) [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000880s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002115s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001781s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000330s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.001862s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.001685s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000315s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.001824s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000242s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000476s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000198s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000314s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000242s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.054523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054586s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001317s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000578s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000448s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003171s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2018-07-06T23:37:05+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=33
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000801s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002320s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530891425,4) [ RunTime:0.000159s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889625 ) [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002368s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=33 ) LIMIT 1   [ RunTime:0.000167s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000937s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\2f5357ca943fe1ac2117af0cdae59f39_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002161s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000379s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.021247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021312s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000555s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000428s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001955s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000612s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2018-07-06T23:37:17+08:00 ] 113.72.16.188 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000638s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002407s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530891437,4) [ RunTime:0.000159s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889637 ) [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000824s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002055s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.002505s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000365s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.001985s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.001693s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.001799s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000243s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000478s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000199s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000243s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.055065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055127s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001205s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000504s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000307s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-07-06T23:37:22+08:00 ] 113.72.16.188 /index.php?g=home&m=service&a=index&id=34
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000797s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: moduleid D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\EmptyAction.class.php 第 23 行.
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002337s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('6c5a8ff1c62c9129e32360e23f35dc8d',0,'','113.72.16.188',1530891442,4) [ RunTime:0.000166s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889642 ) [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: keyword D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `div_service` [ RunTime:0.002282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `div_service` WHERE (  status=1  and catid=34 ) LIMIT 1   [ RunTime:0.000173s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000843s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 1392 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\92cf7ec1285295e43846740df4ea7d9a_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: ishome D:\phpStudy\WWW\yiguan\Cache\Cache\Home\92cf7ec1285295e43846740df4ea7d9a_cn.php 第 93 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\92cf7ec1285295e43846740df4ea7d9a_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.002202s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000387s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.020528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020595s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000631s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000474s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000415s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002326s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2018-07-06T23:37:58+08:00 ] 61.151.226.110 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000635s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002306s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('73131b97928a662eceb8a02c037d5c08',0,'','61.151.226.110',1530891478,4) [ RunTime:0.000145s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889678 ) [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000837s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002079s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000263s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001753s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000314s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.001867s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.001660s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000315s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.001799s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000242s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000477s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000198s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000242s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.054284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054346s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001221s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000484s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000310s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002762s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2018-07-06T23:37:59+08:00 ] 101.226.93.198 /
+NOTIC: [8] Undefined index: iscreatehtml D:\phpStudy\WWW\yiguan\ThinkPHP\Lib\Core\App.class.php 第 80 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000803s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+NOTIC: [2048] Declaration of BaseAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 438 行.
+NOTIC: [2048] Declaration of IndexAction::index() should be compatible with BaseAction::index($catid = '', $module = '') D:\phpStudy\WWW\yiguan\APP\Lib\Action\Home\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: Index D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: l D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `div_online` [ RunTime:0.002099s ]
+NOTIC: [2] Missing argument 2 for Online::write(), called in D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php on line 19 and defined D:\phpStudy\WWW\yiguan\APP\Lib\ORG\Online.class.php 第 36 行.
+SQL: REPLACE INTO `div_online` (`sessionid`,`userid`,`username`,`ip`,`lastvisit`,`groupid`) VALUES ('c07cdcd3362336812906d1a01ecf5c25',0,'','101.226.93.198',1530891478,4) [ RunTime:0.000122s ]
+SQL: DELETE FROM `div_online` WHERE (  lastvisit < 1530889678 ) [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+NOTIC: [8] Undefined index: forward D:\phpStudy\WWW\yiguan\APP\Lib\Action\BaseAction.class.php 第 110 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000806s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000875s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 460 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 463 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined index: posid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 521 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 534 行.
+NOTIC: [8] Undefined variable: ifleft D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: condition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined variable: selfcondition D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 294 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 344 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 346 行.
+NOTIC: [8] Undefined index: typeid D:\phpStudy\WWW\yiguan\ThinkPHP\Extend\Driver\TagLib\TagLibTp.class.php 第 349 行.
+SQL: SHOW COLUMNS FROM `div_slide` [ RunTime:0.002114s ]
+SQL: SELECT * FROM `div_slide` WHERE (  status=1  and id=1  ) LIMIT 1   [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 23 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 85 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [2] Missing argument 1 for HOMEURL(), called in D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php on line 94 and defined D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 799 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: lang D:\phpStudy\WWW\yiguan\APP\Common\common.php 第 801 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: catid D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 99 行.
+NOTIC: [8] Undefined variable: exhost D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 148 行.
+SQL: SHOW COLUMNS FROM `div_slide_data` [ RunTime:0.001779s ]
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\yiguan\Cache\Cache\Home\1e0c5aae7bbeb7806b7c51b527a6761e_cn.php 第 161 行.
+SQL: SELECT * FROM `div_slide_data` WHERE (  status=1 and  fid=1  and lang=1 ) ORDER BY  listorder ASC ,id DESC  LIMIT 3   [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `div_product` [ RunTime:0.001897s ]
+SQL: SELECT `title`,`thumb`,`caseurl`,`indeximg` FROM `div_product` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY id desc LIMIT 12   [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `div_link` [ RunTime:0.001666s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and typeid=3 and  linktype=2 ) ORDER BY id desc LIMIT 5,5   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `div_article` [ RunTime:0.001768s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000216s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid=8 ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000438s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.000166s ]
+SQL: SELECT `id`,`catid`,`url`,`title`,`title_style`,`keywords`,`description`,`thumb`,`createtime` FROM `div_article` WHERE (  1  and lang=1 AND status=1  AND catid in(9,10) ) ORDER BY id desc LIMIT 1,5   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `div_link` WHERE (  status = 1  and lang=1 and  linktype=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000219s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.053262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053326s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001209s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000434s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000339s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002717s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+

@@ -1,0 +1,119 @@
+<!-- 
+<div class="left">
+		<div class="pos"><b></b><span>{:L(catpos)} <a href="{:URL()}">{:L(home_font)}</a> &gt <tp:catpos  catid="catid" space=" &gt; " /></span></div>
+		<div class="list">
+		<ul class="txt">
+			<volist name="list" id="r">
+					<li><span class="date">[{$r.createtime|toDate=###,'Y-m-d'}]</span><a href="{$r.url}" target="_blank">{$r.title}</a></li>
+			</volist> 
+		</ul></div>
+
+		<div id="pages" class="page">{$pages}</div>
+		<br>
+</div> -->
+
+
+
+
+<div class="mainner">
+  <div class="w clearfix">
+   		 
+	<!-- <include file="Home:left" /> -->
+
+
+	<div class="aside">
+	      <div class="col-hd">
+	        <div class="col-title">
+	          <h2 class="h2">{$Categorys[$catid]['catname']}</h2>
+	          <h1 class="h1"> </h1>
+	        </div>
+	      </div>
+	      <div class="col-bd">
+	        <div class="menu">
+	          <ul class="clearfix">
+	            <tp:subcat catid="$catid1" id="x">
+	               <li title="{$x.title}" class="{if is_child($catid,$x['arrchildid'])} on{/if}"><i></i><span><a href="{$x.url}" title="{$x.title}" class="{if is_child($catid,$x['arrchildid'])} on{/if}">{$x.catname}</a></span></li>
+	            </tp:subcat>
+	          </ul>
+	        </div>
+	<div class="contactBox">
+	  <div class="hd"><h2 class="h2">联系我们</h2></div>
+	  <div class="bd">
+	    <dl class="c-msg">
+	      <dt><i class="ico ico-msg"></i></dt>
+	      <dd><tp:block pos="le_email" /></dd>
+	    </dl>
+	    <dl class="c-call">
+	      <dt><i class="ico ico-call"></i></dt>
+	      <dd><tp:block pos="le_phone" /></dd>
+	    </dl>
+	    <dl class="c-build">
+	      <dt><i class="ico ico-build"></i></dt>
+	      <dd><tp:block pos="le_address" /></dd>
+	    </dl>
+	  </div>
+	</div>      </div>
+	      <div class="col-ft"></div>
+	    </div>
+
+
+
+    <div class="section">
+    
+      <div class="content">
+        <div class="hd">
+          <h2 class="hda">{$Categorys[$catid]['catname']}<em class="highline">{$Categorys[$catid]['enname']}</em></h2>
+           <a href="javascript:history.go(-1);" class="hdb">返回上一级</a> 
+          </div>
+        <div class="bd">
+          <div class="pros lifeList-pros" id="j_lifeList_pros">
+            <ul class="pros-ul">
+
+            <volist name="list" limit="10" id="vo">
+              <li>
+                <h3>
+                <a href="<?php if($vo['outlink']==""){echo $vo['url'];}else{echo $vo['outlink'];} ?>">
+                			{$vo.title}
+				
+                		</a></h3>
+                <p>
+                  <span class="txt">{$vo.description}</span>
+                  <span class="btn"><a href="<?php if($vo['outlink']==""){echo $vo['url'];}else{echo $vo['outlink'];} ?> ">详情&gt;</a></span></p>
+              </li>
+             </volist>
+       
+            </ul>
+          </div>
+        	<!--S page -->
+          <!--设计要求14条每页，如果超过14条请使用分页-->
+          <div align="center"><div class="pagination"><div class="page">
+			  <ul class="pagination fr">
+					<!-- <li><span disable="disable" class="previous-off">上一页</span></li>
+								<li><span class="on">1</span></li> -->
+				
+				
+				
+					<li>{$pages}</li>
+			  </ul>
+
+		</div>
+
+
+</div></div>
+          <!--E page -->
+        </div>
+      </div>
+
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+

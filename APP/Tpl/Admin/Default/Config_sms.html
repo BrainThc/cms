@@ -1,0 +1,50 @@
+
+
+<form method='post'  id="myform" action="{:U('Config/dosite')}">
+<table width="100%"  cellpadding=0 cellspacing=0  class="table_form"> 
+
+  <tbody > 
+	  <tr> 
+	    <th width="170">短信账号：</th> 
+	    <td class="y-bg"><input type="text" class="input-text" name="sms_user" id="sms_user" size="30" value="{$sms_user}" validate="required:true" /></td> 
+	  </tr> 
+	  <tr> 
+	    <th>短信密码：</th> 
+	    <td class="y-bg"><input type="text" class="input-text" name="sms_pass" id="sms_pass" size="30" value="{$sms_pass}" validate="required:true" /></td> 
+	  </tr>
+	  <tr> 
+	    <th>短信验证测试：</th> 
+	    <td class="y-bg"><input type="text" class="input-text"  id="mobile" size="30" value="" validate="required:true,mobile:true" /> <input type="button" class="button" onClick="javascript:test_mobile(this);" value="{:L('config_mail_testsed')}"></td> 
+	  </tr> 
+
+ </tbody> 
+         
+</table> 
+<div class="btn">
+<INPUT TYPE="submit"  value="{:L('save')}" class="button" >
+<input TYPE="reset"  value="{:L('reset')}" class="button">
+</div>
+</form>
+</div>
+<script type="text/javascript">
+	function test_mobile(){
+		var obj = $('#mobile');
+		var mobile = obj.val();
+		if(mobile && obj.is('.valid')){
+			
+			if(obj.attr('mobile') == mobile) return alert('请不要重复测试！要钱的亲.');
+			obj.attr('mobile',mobile);
+
+			$.get("{:URL('Home-Ajax/sms')}",{ mobile:mobile },function(rs){
+				if(rs.Result==0){
+					alert('发送成功，请注意查收.');
+				}else{
+					alert('发送失败，错误Result：'+rs.Result);
+				}
+			},'json');
+		}else{
+			obj.focus();
+		}
+
+	}
+</script>

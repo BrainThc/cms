@@ -1,0 +1,67 @@
+<div class="nymain">
+	<include file="Home:banner" />
+	<include file="Home:left" />
+	<div class="vipright fr">
+	<div class="vipr">
+		<p class="preson">收货地址</p>
+		 <!--address Begin-->
+        <div class="address">
+        	<form id="myform" action="{:U('update')}" method="post" accept-charset="utf-8">
+        	<input type="hidden" name="id" value="{$vo.id}" />
+            <table width="750" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #d4d4d4" align="center">
+            	<tr>
+                    <td align="right" class="td_add">配送区域：</td>
+                    <td colspan="3" class="td_add">  
+                        <select name="province" id="province" onchange="area_change(this.value, 1,'province','city','area');" class="ddlbox" ><option value="0">请选择省份...</option>
+						 </select>
+						 <select name="city" onchange="area_change(this.value, 2,'province','city','area');" id="city" class="ddlbox" >
+						 <option value="0">请选择城市...</option>
+						</select>
+						<select name="area" onchange="area_change(this.value, 3,'province','city','area');" id="area" class="ddlbox" >
+						<option value="0">请选择区域...</option>
+						</select>
+						<span class="r_span">*</span>
+
+						<script>
+						$(function(){ 
+							area_change(0, 0,'province','city','area','{$vo.province}','{$vo.city}','{$vo.area}');
+						});
+						</script>
+                       
+                    </td>
+            	</tr>
+            	<tr>
+                    <td align="right" class="td_add">收货人：</td>
+                    <td class="td_add"><input type="text" class="txt_add" name="consignee" value="{$vo.consignee}" validate="required:true" /><span class="r_span">*</span></td>
+                    <td align="right" class="td_add">电子邮件：</td>
+                    <td class="td_add"><input type="text" class="txt_add"  name="email" value="{$vo.email}"  /></td>
+            	</tr>
+                <tr>
+                  <td align="right" class="td_add">详细地址：</td>
+                  <td class="td_add"><input type="text" class="txt_add"  name="address" value="{$vo.address}" validate="required:true" /><span class="r_span">*</span></td>
+                  <td align="right" class="td_add">邮政编码：</td>
+                  <td class="td_add"><input type="text" class="txt_add"  name="zipcode" value="{$vo.zipcode}" /></td>
+                </tr>
+                <tr>
+                  <td align="right" class="td_add">手机：</td>
+                  <td class="td_add"><input type="text" class="txt_add"  name="mobile" value="{$vo.mobile}" validate="required:true,mobile:true" /><span class="r_span">*</span></td>
+                  <td align="right" class="td_add">电话：</td>
+                  <td><input type="text" class="txt_add"  name="tel" value="{$vo.tel}" /></td>
+                </tr>
+                <tr>
+					<td colspan="4" align="right" class="td_list">
+					{if $action_name == 'add'} 
+					<label style="margin-right: 20px;"><input type="checkbox" name="isdefault" value="1" checked  >&nbsp;设为默认收货地址</label>
+					{/if}
+					<input type="submit" name="button" id="button" value="保存收货地址" class="bon_add" />
+					</td>
+                </tr>
+        	</table>
+        	</form>
+        
+        </div>
+        <!--address End-->
+    </div>
+	</div>
+	<div class="clear"></div>
+</div>

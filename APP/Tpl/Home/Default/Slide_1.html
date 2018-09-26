@@ -1,0 +1,28 @@
+
+{if $exhost[0] == 'm' || isMobile()}
+ {loop}
+  <div class="swiper-slide">
+    <a {if $r[link]} href="{$r.link}"{/if}><img src="{$r.small}" alt="{$r.title}" height="250"></a>
+  </div>
+{/loop}
+{else}
+
+<!--banner-->
+      
+        <ul class="pic" id="pic">
+        {loop}
+          <li style="background-image:url({$r.pic})">
+            <a title="{$r.title}" href="{$r.url}">
+            </a>
+          </li>
+         {/loop}
+        </ul>
+        <ul class="list" id="list_pic">
+        {loop}
+          <li {if $i==1}class="on"{/if}>
+          </li>
+        {/loop}
+        </ul>
+
+
+{/if}

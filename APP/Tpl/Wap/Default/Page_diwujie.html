@@ -1,0 +1,100 @@
+
+<div class="mainner">
+  <div class="w clearfix">
+   		 
+	<!-- <include file="Home:left" /> -->
+
+
+	<div class="aside">
+	      <div class="col-hd">
+	        <div class="col-title">
+	          <h2 class="h2">{$Categorys[$catid]['catname']}</h2>
+	          <h1 class="h1"> </h1>
+	        </div>
+	      </div>
+	      <div class="col-bd">
+	        <div class="menu">
+	          <ul class="clearfix">
+	            <tp:subcat catid="$catid1" id="x">
+	               <li title="{$x.title}" class="{if is_child($catid,$x['arrchildid'])} on{/if}"><i></i><span><a href="{$x.url}" title="{$x.title}" class="{if is_child($catid,$x['arrchildid'])} on{/if}">{$x.catname}</a></span></li>
+	            </tp:subcat>
+	          </ul>
+	        </div>
+	<div class="contactBox">
+	  <div class="hd"><h2 class="h2">联系我们</h2></div>
+	  <div class="bd">
+	    <dl class="c-msg">
+	      <dt><i class="ico ico-msg"></i></dt>
+	      <dd><tp:block pos="le_email" /></dd>
+	    </dl>
+	    <dl class="c-call">
+	      <dt><i class="ico ico-call"></i></dt>
+	      <dd><tp:block pos="le_phone" /></dd>
+	    </dl>
+	    <dl class="c-build">
+	      <dt><i class="ico ico-build"></i></dt>
+	      <dd><tp:block pos="le_address" /></dd>
+	    </dl>
+	  </div>
+	</div>      </div>
+	      <div class="col-ft"></div>
+	    </div>
+
+
+
+    <div class="section">
+    
+      <div class="content">
+        <div class="hd"><h2 class="h2">{$Categorys[$catid]['catname']}<em class="highline"> </em></h2></div>
+        <div class="bd">
+
+				<div class="life-sub-menu life-sub-menu1" id="j_life_sub_menu1">
+            <div class="background"></div>
+           
+              <div class="rings">
+
+               <tp:subcat catid="$catid" id="x" key="n">
+                <a class="ring{$n}" href="{$x.url}">
+                  <h2>{$x.catname}</h2>
+                </a>
+               </tp:subcat>
+                
+               <!--  <a class="ring2" href="http://www.gdsnf.com/lifehall40002/150.jhtml">
+                  <h2>会议流程</h2>
+                </a>
+                <a class="ring3" href="/lifehall40003/index.jhtml">
+                  <h2>专家介绍</h2>
+                </a>
+                <a class="ring4" href="http://www.gdsnf.com/lifehall40004/543.jhtml">
+                  <h2>会议直播</h2>
+                </a>
+                <a class="ring5" href="http://www.cnif.cn/s/1630-5486-27740.html">
+                  <h2>媒体报道</h2>
+                </a>
+                <a class="ring6" href="http://www.gdsnf.com/lifehall40006/442.jhtml">
+                  <h2>主办方介绍</h2>
+                </a>
+                <a class="ring7" href="http://www.gdsnf.com/lifehall40007/519.jhtml">
+                  <h2>承办方介绍</h2>
+                </a>
+                <a class="ring8" href="/lifehall40008/index.jhtml">
+                  <h2>行业资讯</h2>
+                </a> -->
+              </div>
+             
+            </div>
+
+
+			       <!-- {if $content}
+ 						{$content}
+ 					{else}
+ 						<p>暂无数据...</p>
+ 					{/if} -->
+
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>

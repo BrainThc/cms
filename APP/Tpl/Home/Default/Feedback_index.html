@@ -1,0 +1,105 @@
+
+
+ 	   <div class="opinion" id="question">
+        <div class="wrap-1200">
+        <form name="myform" id="myform" action="{:U('Home/Index/insert')}" method="post" onsubmit="return checkform(this);">
+         
+          <div class="opinion_title">顾客意见 <span>Customer opinion</span> </div>
+          <p>
+            <input type="text" id="username" name="username" class=" opinion_text" placeholder="姓名/ 昵称">
+          </p>
+          <p>
+            <input type="text" id="Tel" name="Tel" class=" opinion_text" placeholder="联系方式">
+          </p>
+          <p>
+            <textarea cols="" id="content" name="content" class=" opinion_text2" rows="" placeholder="问题或意见："></textarea>
+          </p>
+          <input type="submit" class="opinion_btn" value="提交">
+
+         <input type="hidden" name="module" value="Feedback" />
+        </form>
+        </div>
+      </div>
+
+
+
+      <script language="javascript">
+      function chkemail(a)
+      {
+        var i=a.length;
+          var temp = a.indexOf('@');
+          var tempd = a.indexOf('.');
+          if (temp >= 1) {
+            if ((i-temp) > 3){
+                
+                    if ((i-tempd)>0){
+                        return 1;
+                    }
+                
+            }
+          }
+        return 0;
+      }
+      function IsDigit(cCheck)  
+      {  
+          return (('0'<=cCheck) && (cCheck<='9'));  
+      } 
+      function checkform(nForm)  
+      {
+        if(nForm.username.value==""||nForm.username.value=="姓名或昵称")
+        {
+          alert("请留下您的姓名或昵称!");
+          nForm.username.focus();
+          return false;
+        }
+
+
+         
+
+      // if (nForm.email.value ==""||chkemail(nForm.email.value)==0||nForm.email.value =="邮箱")
+      //      {
+      //      alert("请输入正确的，可以联络到您的E-mail");
+      //      nForm.email.focus();
+      //      return false;
+      //      }
+          
+      if(nForm.Tel.value==""||nForm.Tel.value=="电话"){
+      alert(" 请留下您的电话,以便我们与您联系!") ;
+      nForm.Tel.focus();
+      return false;
+      }  
+
+      if( IsDigit(nForm.Tel.value)==0)
+      {
+      alert("电话必须为数字!");
+      nForm.Tel.focus();
+      return false;
+      }
+      if(nForm.company.value==""||nForm.company.value=="公司名称")
+        {
+          alert("请留下您的公司名称!");
+          nForm.company.focus();
+          return false;
+        }
+
+      if(nForm.content.value==""){
+        alert("请写下您的问题或意见");
+        nForm.content.focus();
+        return false;
+      }
+      //if(nForm.captchacode.value==""){
+      //  alert("请输入验证码!");
+      //  nForm.captchacode.focus();
+      //  return false;
+      //}
+
+      }
+      function RefreshImage(valImageId) {
+        var objImage = document.images[valImageId];
+        if (objImage == undefined) {
+          return;
+        }
+        var now = new Date();
+        objImage.src = objImage.src.split('?')[0] + '?x=' + now.toUTCString();
+      }
+      </script>

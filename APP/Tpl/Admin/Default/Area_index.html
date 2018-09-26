@@ -1,0 +1,133 @@
+<style type="text/css">
+	.search_table th{ text-align: left; }
+	.search_table select{ width: 90%; }
+	.search_table input{ line-height: 22px; width: 60%; text-indent: 2px; }
+	.search_table td a{ display: inline-block;margin: 0 2px;padding: 0 5px; }
+	#nav{ display: none; }
+</style>
+<table  class="search_table" width="60%">
+	<tr>
+		<th width="33%">省市</th>
+		<th width="33%">城市</th>
+		<th>区域</th>
+	</tr>
+	<tr>
+		<td>
+			<select name="provinceid" id="province">
+				<option value="0">请选择省市</option>
+				<volist name="data.province" id="r" key="k">
+					<option value="{$r.id}" {$provinceid==$r[id]?'selected':''}>{$r.name}</option>
+				</volist>
+			</select>
+		</td>
+		<td>
+			<select name="cityid" id="city">
+				<option value="">请选择城市</option>
+				<volist name="data.city" id="r" key="k">
+					<option value="{$r.id}" {$cityid==$r['id']?'selected':''}>{$r.name}</option>
+				</volist>
+			</select>
+		</td>
+		<td>
+			<select name="areaid" id="area">
+				<option value="">请选择区域</option>
+				<volist name="data.area" id="r" key="k">
+					<option value="{$r.id}" {$areaid==$r['id']?'selected':''}>{$r.name}</option>
+				</volist>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="text" value="{:MD('Area','id='.$provinceid,'name')}" >
+			<if condition="$provinceid eq 0">
+				<a href="{:U('insert?pid=0')}" class="btn">新增省市</a>
+			<else />
+				<a href="{:U('update?id='.$provinceid)}" class="btn">修改</a>
+				<a href="{:U('delete?do=province&id='.$provinceid)}" class="del">删除</a>
+			</if>
+		</td>
+		<td>
+			<if condition="$provinceid">
+				<input type="text" value="{:MD('Area','id='.$cityid,'name')}">
+				<if condition="$cityid eq 0">
+					<a href="{:U('insert?pid='.$provinceid)}" class="btn">新增城市</a>
+				<else />
+					<a href="{:U('update?id='.$cityid)}" class="btn">修改</a>
+					<a href="{:U('delete?do=city&id='.$cityid)}" class="del">删除</a>
+				</if>
+			</if>
+			
+		</td>
+		<td>
+			<if condition="$cityid">
+				<input type="text" value="{:MD('Area','id='.$areaid,'name')}">
+				<if condition="$areaid eq 0">
+					<a href="{:U('insert?pid='.$cityid)}" class="btn">新增区域</a>
+				<else />
+					<a href="{:U('update?id='.$areaid)}" class="btn">修改</a>
+					<a href="{:U('delete?do=area&id='.$areaid)}" class="del">删除</a>
+				</if>
+			</if>
+			
+		</td>
+	</tr>
+
+</table>
+
+<script>
+	$(function() {
+		//初始化
+		var url = "__ROOT__/index.php?g=Admin&m=Area&a=index";
+
+		//选择事件
+		$('#province').change(function(){
+			var id = $(this).val();
+			url += "&provinceid="+id;
+			location.href = url;
+		});
+
+		$('#city').change(function(){
+			var id = $(this).val();
+			url += "&provinceid={$provinceid}&cityid="+id;
+			location.href = url;
+		});
+
+		$('#area').change(function(){
+			var id = $(this).val();
+			url += "&provinceid={$provinceid}&cityid={$cityid}&areaid="+id;
+			location.href = url;
+		});
+
+		//新增 修改
+		$('.search_table a.btn').click(function(e){
+			e.preventDefault();
+			var name = $(this).siblings('input').val();
+			$.getJSON($(this).attr('href'),{ 'name':name },function(rs){
+				if(rs){
+					alert('操作成功！');
+				}else{
+					alert('操作失败！');
+				}
+				location.reload();
+			});
+		});
+
+		//删除
+		$('.search_table a.del').click(function(e){
+			e.preventDefault();
+			if(!confirm('确定要删除此数据？')) return false;
+			$.getJSON($(this).attr('href'),function(rs){
+				if(rs){
+					alert('删除成功！');
+				}else{
+					alert('删除失败！');
+				}
+				location.reload();
+			});
+		});
+
+
+	});
+</script>
+

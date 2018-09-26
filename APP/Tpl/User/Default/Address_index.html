@@ -1,0 +1,66 @@
+<div class="nymain">
+	<include file="Home:banner" />
+	<include file="Home:left" />
+	<div class="vipright fr">
+	<div class="vipr">
+		<p class="preson">收货地址</p>
+		 <!--address Begin-->
+        <div class="address">
+
+        	<div style="padding:10px 40px;text-align: right;"><input type="button"  class="bon_add" value="新增收货地址" onclick="location.href='{:U('add')}';" /></div>
+
+        	<volist name="list" id="vo" key="k">
+            <table width="750" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #d4d4d4;margin-bottom: 10px;" align="center">
+            	<tr>
+                    <td align="right" class="td_add">配送区域：</td>
+                    <td colspan="3" class="td_add">  
+                        {:MD('Area','id='.$vo[province],'name')} - 
+                        {:MD('Area','id='.$vo[city],'name')} - 
+                        {:MD('Area','id='.$vo[area],'name')}
+                    </td>
+            	</tr>
+            	<tr>
+                    <td align="right" class="td_add">收货人：</td>
+                    <td class="td_add">{$vo.consignee}</td>
+                    <td align="right" class="td_add">电子邮件：</td>
+                    <td class="td_add">{$vo.email}</td>
+            	</tr>
+                <tr>
+                  <td align="right" class="td_add">详细地址：</td>
+                  <td class="td_add">{$vo.address}</td>
+                  <td align="right" class="td_add">邮政编码：</td>
+                  <td class="td_add">{$vo.zipcode}</td>
+                </tr>
+                <tr>
+                  <td align="right" class="td_add">手机：</td>
+                  <td class="td_add">{$vo.mobile}</td>
+                  <td align="right" class="td_add">电话：</td>
+                  <td>{$vo.tel}</td>
+                </tr>
+                <tr>
+                  <td colspan="4" align="right" class="td_list">
+                  	{if $vo[isdefault] == 1}
+                  	<a href="javascript:void(0);" style="color:gray;" >默认地址</a>
+                  	{else}
+					<a href="{:U('isdefault?id='.$vo[id])}" style="color:green;" >设为默认</a>
+					{/if}
+					<a href="{:U('edit?id='.$vo[id])}" >修改</a>
+					<a href="{:U('del?id='.$vo[id])}" onclick="return confirm('你确定删除？');" >删除</a>
+                  </td>
+                </tr>
+        	</table>
+        	</volist>
+
+
+        
+        </div>
+        <!--address End-->
+    </div>
+	</div>
+	<div class="clear"></div>
+</div>
+<style type="text/css" media="screen">
+	.td_list a{ margin:0 10px; color:#007CC3; } 
+	.td_list a:hover{ color:red; } 
+
+</style>

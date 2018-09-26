@@ -1,0 +1,98 @@
+
+<div class="mainner">
+  <div class="w clearfix">
+   		 
+	<!-- <include file="Home:left" /> -->
+
+
+	<div class="aside">
+	      <div class="col-hd">
+	        <div class="col-title">
+	          <h2 class="h2">{$Categorys[$catid]['catname']}</h2>
+	          <h1 class="h1"> </h1>
+	        </div>
+	      </div>
+	      <div class="col-bd">
+	        <div class="menu">
+	          <ul class="clearfix">
+	            <tp:subcat catid="$catid1" id="x">
+	               <li title="{$x.title}" class="{if is_child($catid,$x['arrchildid'])} on{/if}"><i></i><span><a href="{$x.url}" title="{$x.title}" class="{if is_child($catid,$x['arrchildid'])} on{/if}">{$x.catname}</a></span></li>
+	            </tp:subcat>
+	          </ul>
+	        </div>
+	<div class="contactBox">
+	  <div class="hd"><h2 class="h2">联系我们</h2></div>
+	  <div class="bd">
+	    <dl class="c-msg">
+	      <dt><i class="ico ico-msg"></i></dt>
+	      <dd><tp:block pos="le_email" /></dd>
+	    </dl>
+	    <dl class="c-call">
+	      <dt><i class="ico ico-call"></i></dt>
+	      <dd><tp:block pos="le_phone" /></dd>
+	    </dl>
+	    <dl class="c-build">
+	      <dt><i class="ico ico-build"></i></dt>
+	      <dd><tp:block pos="le_address" /></dd>
+	    </dl>
+	  </div>
+	</div>      </div>
+	      <div class="col-ft"></div>
+	    </div>
+
+
+
+    <div class="section">
+    
+      <div class="content">
+        <div class="hd"><h2 class="h2">{$Categorys[$catid]['catname']}<em class="highline"> </em></h2></div>
+        <div class="bd">
+
+		<div class="life-menu" id="j_life_menu">
+            <div class="background"></div>
+            <div class="rings">
+
+           <tp:subcat catid="$catid" id="x" key="n">
+              <a class="ring{$n}" href="{$x.url}" data-targetid="j_sketch1">
+                <h2 id="button1">{$x.catname}</h2>
+              </a>
+           </tp:subcat>
+            </div>
+             <!-- <div class="sketchs" id="isketchs">
+	              <div class="sketch" id="j_sketch1">
+	                <h2>第五届食源肽会议</h2>
+	                <p>第五届国际食源肽会议是国际食源肽学术领域最具影响力的科研交流平台之一，本栏目为你展示大会流程、进展等大会的详情</p>
+	                <a class="btn-more" href="/lifehall4/index.jhtml">查看更多</a>
+	              </div>
+	               <div class="sketch" id="j_sketch2">
+	                <h2>历届会议</h2>
+	                <p>带你领略历届会议的精彩瞬间</p>
+	                <a class="btn-more" href="/lifehall3/index.jhtml">查看更多</a>
+	              </div>
+	               <div class="sketch" id="j_sketch3">
+	                <h2>资讯中心</h2>
+	                <p>带你了解会议资讯、动态</p>
+	                <a class="btn-more" href="/lifehall5/index.jhtml">查看更多</a>
+	              </div>
+	               <div class="sketch on" id="j_sketch4">
+	                <h2>肽科普</h2>
+	                <p>走进“肽”世界</p>
+	                <a class="btn-more on" href="/lifehall2/index.jhtml">查看更多</a>
+	              </div>
+            </div> -->
+          </div>
+
+
+			       <!-- {if $content}
+ 						{$content}
+ 					{else}
+ 						<p>暂无数据...</p>
+ 					{/if} -->
+
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>

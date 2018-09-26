@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="__PUBLIC__/font/iconfont.css">
+<style>
+[class^="icon-"],[class*=" icon-"]{ 
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:inherit;
+  -webkit-font-smoothing:antialiased;
+  *margin-right:.3em;
+}
+[class^="icon-"]:before,[class*=" icon-"]:before{ text-decoration:inherit;display:inline-block;speak:none;}
+
+.msg{margin-top: 145px;}
+
+</style>
+<div class="msg">
+{if $status == "ok" && !empty($status)}
+<i class="icon-ok-sign icon iconfont" style="color: #8dc21f;">&#xe8ee;</i>
+{else}
+<i class="icon-info-sign icon iconfont" style="color: red;">&#xf00ce;</i>
+{/if}
+{$message}
+</div>
+<script type="text/javascript">
+{if empty($forward)}
+  window.setTimeout("javascript:history.back(-1);", 2000);
+{else}
+  window.setTimeout("javascript:location.href='{$forward}';", 2000);
+{/if}
+</script>

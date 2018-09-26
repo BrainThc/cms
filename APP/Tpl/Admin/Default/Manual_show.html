@@ -1,0 +1,26 @@
+{__NOLAYOUT__}
+<doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{$vo.title}</title>
+		<script type="text/javascript" src="__PUBLIC__/Js/jquery.min.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/scrolltopcontrol.js"></script>
+		<style>
+			*{ padding:0; margin:0 auto; }
+			body{ margin: 20px; background: #fff; border:1px solid #eee; }
+			h1{  color: #3A6EA5; font-size: 20px; font-weight: bold; line-height: 50px; }
+			h1.title{ font-size: 30px;  padding: 0 10px; background: #eee;  }
+			h1 a{ text-decoration: none; color: #757761;  }
+			h2{ line-height: 40px; }
+			div.content{ line-height: 26px; padding: 10px; }
+			pre{ background: url(__PUBLIC__/Images/code_bg.jpg);border-left: 3px solid #51AA51;padding: 0 10px;margin: 12px;line-height: 20px; }
+		</style>
+	</head>
+	<body>
+		<h1 class="title">{$vo.title}</h1>
+		<div class="content">
+			{$vo.content}
+		</div>
+	</body>
+</html>
